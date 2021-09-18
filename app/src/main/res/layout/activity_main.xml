@@ -37,11 +37,10 @@
                 android:id="@+id/ll_cur_info"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:background="#F3FBA8"
+                android:background="#DDD0FF"
                 android:orientation="vertical"
                 android:padding="8dp"
-                android:clipToPadding="false"
-                android:elevation="80dp">
+                android:clipToPadding="false">
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/rv_rates"

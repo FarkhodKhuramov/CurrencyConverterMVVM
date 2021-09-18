@@ -56,7 +56,7 @@ public class RateAdapter extends RecyclerView.Adapter<RateAdapter.ViewHolder> {
         Valute valute = dataList.get(position);
         String text = valute.getNominal().toString() + " " +
                 valute.getCharCode() + " (" +
-                valute.getName() + ") " +
+                valute.getName() + ") = " +
                 valute.getValue() + " RUB";
 
         holder.mTextView.setText(text);

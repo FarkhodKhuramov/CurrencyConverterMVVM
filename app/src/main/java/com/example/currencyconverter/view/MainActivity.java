@@ -12,6 +12,8 @@ import com.example.currencyconverter.adapter.RateAdapter;
 import com.example.currencyconverter.data.CurrencyWrapper;
 import com.example.currencyconverter.viewmodel.MainActivityViewModel;
 
+import java.util.Locale;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
@@ -62,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         btnConvert.setOnClickListener((View v) -> {
             Float sum = Float.valueOf(sumToConvert.getText().toString());
             Float result = viewModel.convert(sum, "USD");
-            sumResult.setText(result.toString());
+            sumResult.setText(String.format(Locale.getDefault(), "%.4f", result));
         });
 
     }
