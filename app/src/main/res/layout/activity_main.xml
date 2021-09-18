@@ -56,7 +56,7 @@
                 android:orientation="horizontal">
 
                 <EditText
-                    android:id="@+id/et_sum_rub"
+                    android:id="@+id/et_sum_to_convert"
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:inputType="numberDecimal"
@@ -107,7 +107,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/btn_submit"
+                android:id="@+id/btn_convert"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
