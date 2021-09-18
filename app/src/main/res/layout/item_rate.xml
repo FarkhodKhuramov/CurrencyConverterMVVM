@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:hint="1 RUB = 100 INR (Индийских Рупий)"
         android:textSize="18sp"
-        android:textStyle="bold"
         />
 
 
